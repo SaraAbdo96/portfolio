@@ -8,13 +8,13 @@ const Projects = () => {
       id="projects"
       className="w-full py-20 border-b-[px] border-b-black"
     >
-      <div className="flex justify-center items-center text-center">
+      <div className="flex items-center justify-center text-center">
         <Title
           title="VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK"
           desc="My Projects"
         />
       </div>
-      <div className="grid grid-cols-3 gap-14">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 xl:grid-cols-3 gap-14">
         <ProjectCard
           title="Chatting App"
           desc="A real-time chatting application built with React and Socket.io, featuring user authentication, private messaging, and a MongoDB backend for data storage."

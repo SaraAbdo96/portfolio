@@ -9,15 +9,15 @@ import {
   FaMobileAlt,
   FaTachometerAlt,
 } from "react-icons/fa";
+
 const Features = () => {
   return (
     <section
       id="features"
-      className="w-full  py-20 border-b-[1px] border-b-black"
+      className="w-full py-20 border-b-[1px] border-b-black"
     >
       <Title title="Features" desc="What I Do" />
-
-      <div className="grid grid-cols-3 gap-20">
+      <div className="grid grid-cols-1 gap-6 xl:gap-20 md:grid-cols-2 xl:grid-cols-3">
         <Card
           title="Frontend Development"
           desc="Building responsive and dynamic web applications using modern frontend technologies such as React.js."
